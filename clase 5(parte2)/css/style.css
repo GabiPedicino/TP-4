@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "KirangHaerang-Regular";
+    src: url(../fuentes/Kirang_Haerang/KirangHaerang-Regular.ttf);
+}
+
+
+body{
+    /*background-color: #E99497;*/
+    color:yellowgreen;
+   /* background-image: url(../imagenes/imagengif.jpg);
+    background-repeat:repeat-x;*/
+    /*font-family: 'Courier New', Courier, monospace;
+    font-family: "KirangHaerang-Regular";*/
+}
+
+h1{
+    font-family: "KirangHaerang-Regular";
+}
+h2,h4{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../imagenes/imagengif.jpg);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-right:500px;
+    margin-left: 500px;
+    text-align: center;
+    border-style:dotted;
+    border-bottom:gold;
+}
+
+p{
+    border-style: double;
+}
+
+p{}
+
+span{
+    color:black;
+}
+
+.azul{
+    color:blue;
+}
+
+.violeta{
+    color: blueviolet;
+}
+
+.variante1{
+    color:crimson;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.variante2{
+    color:indigo;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

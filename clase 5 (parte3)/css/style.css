@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+
+}
+
+table{
+    width: 600px;
+
+}
+
+th, td{
+    /*padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-style: dotted;
+    border-color: lightcoral;*/
+    /* PUEDO RESUMIR EL PADDING EN UNA MISMA LINEA SEPARADOS POR UN ESPACIO SIN , */
+
+    padding: 7px 10px 10px 10px;
+
+}
+
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    /*border-style: double;
+    border-color: #D83A56;
+    border-width: 12px;*/
+
+    /*border-top: double #66DE93 12px;
+    border-left: double  #66DE93 12px;
+    border-right: double  #66DE93 12px;
+    border-bottom: double  #66DE93 12px;*/
+
+    border-bottom: 2px solid  #66DE93;
+    border-top: 1px solid #66DE93;
+    text-align: right;
+
+   
+
+}
+
+tr.even{
+    background-color: #EDFFEC;
+}
+
+.money{
+    text-align: center;
+}
+
+tr:hover{
+    background-color: hotpink;
+    color:rgb(134, 4, 4);
+    background-image: url(../imagenes/background.jpg);
+}
